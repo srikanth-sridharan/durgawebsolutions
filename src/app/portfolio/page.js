@@ -26,25 +26,21 @@ const PortfolioMasonaryPage = () => {
                       <Link href="/portfolio">Web Design</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Development</Link>
+                      <Link href="/portfolio">Web Development</Link>
                     </li>
-                    <li>
-                      <Link href="/portfolio">Software</Link>
-                    </li>
+                    
                   </ul>
                   <div className="portfolio-img">
-                    <img src="/assets/img/home5/portfolio-01.jpg" alt="" />
+                    <img src="/assets/img/client1.png" alt="Right Plumbing Heating" />
                   </div>
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details">
-                      Smart Design, Smarter Solutions.
-                    </Link>
+                    Right Plumbing Heating
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details"
+                    href="https://riteplumbingnyc.com/"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -70,25 +66,25 @@ const PortfolioMasonaryPage = () => {
                       <Link href="/portfolio">Logo</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Color</Link>
+                      <Link href="/portfolio">Web design and Development</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Typography</Link>
+                      <Link href="/portfolio">React</Link>
                     </li>
                   </ul>
                   <div className="portfolio-img">
-                    <img src="/assets/img/home5/portfolio-02.jpg" alt="" />
+                    <img src="/assets/img/client2.png" alt="JAK Designs & Builds" />
                   </div>
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details">
-                      Where Vision Meets Technology.
+                    <Link href="https://arohara.github.io/jakdnb.com/">
+                      Jak Designs & Builds
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details"
+                    href="https://arohara.github.io/jakdnb.com/"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -114,25 +110,25 @@ const PortfolioMasonaryPage = () => {
                       <Link href="/portfolio">Logo</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Color</Link>
+                      <Link href="/portfolio">Web Design and Development</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Typography</Link>
+                      <Link href="/portfolio">Hosting</Link>
                     </li>
                   </ul>
                   <div className="portfolio-img">
-                    <img src="/assets/img/home5/portfolio-03.jpg" alt="" />
+                    <img src="/assets/img/client3.png" alt="Vakhula" />
                   </div>
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details">
-                      Studio Navigating the Digital Wave.
+                    <Link href="https://vakhula.com">
+                      Vakhula
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details"
+                    href="https://vakhula.com"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -155,28 +151,28 @@ const PortfolioMasonaryPage = () => {
                 <div className="image-and-tag">
                   <ul className="tag">
                     <li>
-                      <Link href="/portfolio">Logo</Link>
+                      <Link href="/portfolio">Web Design & Development</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Color</Link>
+                      <Link href="/portfolio">Wordpress Backend</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Typography</Link>
+                      <Link href="/portfolio">Headless React Frontend</Link>
                     </li>
                   </ul>
                   <div className="portfolio-img">
-                    <img src="/assets/img/home5/portfolio-04.jpg" alt="" />
+                    <img src="/assets/img/client4.png" alt="Zdapt" />
                   </div>
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details">
-                      NexGen Pioneering Digital Solutions.
+                    <Link href="https://zdapt.com">
+                      Zdapt
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details"
+                    href="https://zdapt.com"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -190,7 +186,7 @@ const PortfolioMasonaryPage = () => {
                 </div>
               </div>
             </div>
-            <div
+            {/* <div
               className="col-lg-6 col-md-6 wow animate fadeInDown"
               data-wow-delay="400ms"
               data-wow-duration="1500ms"
@@ -277,7 +273,7 @@ const PortfolioMasonaryPage = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="row">
             <div
