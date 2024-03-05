@@ -393,7 +393,7 @@ const Header2 = () => {
                       </li>
                     </ul>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/case-study">Case Study</Link>
                     <span
                       className={`dropdown-icon2 ${
@@ -448,7 +448,7 @@ const Header2 = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/blog">Blog</Link>
                     <span

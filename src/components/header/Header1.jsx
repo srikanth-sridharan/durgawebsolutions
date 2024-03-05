@@ -131,34 +131,30 @@ const Header1 = () => {
                   <li>
                     <Link href="/">Agency </Link>
                     <span
-                      className={`dropdown-icon2 ${
-                        state.activeMenu === "home" ? "active" : ""
-                      }`}
+                      className={`dropdown-icon2 ${state.activeMenu === "home" ? "active" : ""
+                        }`}
                       onClick={() => toggleMenu("home")}
                     >
                       <i className="bi bi-plus" />
                     </span>
                     <ul
-                      className={`submenu-list active ${
-                        state.activeMenu === "home" ? "d-block" : "d-none"
-                      }`}
+                      className={`submenu-list active ${state.activeMenu === "home" ? "d-block" : "d-none"
+                        }`}
                     >
                       <li>
                         <a href="#">Light Version</a>
                         <span
-                          className={`dropdown-icon2 two ${
-                            state.activeSubMenu === "light" ? "active" : ""
-                          }`}
+                          className={`dropdown-icon2 two ${state.activeSubMenu === "light" ? "active" : ""
+                            }`}
                           onClick={() => toggleSubMenu("light")}
                         >
                           <i className="bi bi-plus" />
                         </span>
                         <ul
-                          className={`submenu-list ${
-                            state.activeSubMenu === "light"
-                              ? "d-block"
-                              : "d-none"
-                          }`}
+                          className={`submenu-list ${state.activeSubMenu === "light"
+                            ? "d-block"
+                            : "d-none"
+                            }`}
                         >
                           <li>
                             <Link href="/">
@@ -230,19 +226,17 @@ const Header1 = () => {
                       <li>
                         <a href="#">Dark Version</a>
                         <span
-                          className={`dropdown-icon2 two ${
-                            state.activeSubMenu === "dark" ? "active" : ""
-                          }`}
+                          className={`dropdown-icon2 two ${state.activeSubMenu === "dark" ? "active" : ""
+                            }`}
                           onClick={() => toggleSubMenu("dark")}
                         >
                           <i className="bi bi-plus" />
                         </span>
                         <ul
-                          className={`submenu-list ${
-                            state.activeSubMenu === "dark"
-                              ? "d-block"
-                              : "d-none"
-                          }`}
+                          className={`submenu-list ${state.activeSubMenu === "dark"
+                            ? "d-block"
+                            : "d-none"
+                            }`}
                         >
                           <li>
                             <Link href="/">
@@ -316,17 +310,15 @@ const Header1 = () => {
                   <li>
                     <Link href="/service">Services</Link>
                     <span
-                      className={`dropdown-icon2 ${
-                        state.activeMenu === "service" ? "active" : ""
-                      }`}
+                      className={`dropdown-icon2 ${state.activeMenu === "service" ? "active" : ""
+                        }`}
                       onClick={() => toggleMenu("service")}
                     >
                       <i className="bi bi-plus" />
                     </span>
                     <ul
-                      className={`submenu-list ${
-                        state.activeMenu === "service" ? "d-block" : "d-none"
-                      }`}
+                      className={`submenu-list ${state.activeMenu === "service" ? "d-block" : "d-none"
+                        }`}
                     >
                       <li>
                         <Link href="/service">
@@ -395,7 +387,7 @@ const Header1 = () => {
                       </li>
                     </ul>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/case-study">Case Study</Link>
                     <span
                       className={`dropdown-icon2 ${
@@ -450,21 +442,19 @@ const Header1 = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="/blog">Blog</Link>
                     <span
-                      className={`dropdown-icon2 ${
-                        state.activeMenu === "blog" ? "active" : ""
-                      }`}
+                      className={`dropdown-icon2 ${state.activeMenu === "blog" ? "active" : ""
+                        }`}
                       onClick={() => toggleMenu("blog")}
                     >
                       <i className="bi bi-plus" />
                     </span>
                     <ul
-                      className={`submenu-list ${
-                        state.activeMenu === "blog" ? "d-block" : "d-none"
-                      }`}
+                      className={`submenu-list ${state.activeMenu === "blog" ? "d-block" : "d-none"
+                        }`}
                     >
                       <li>
                         <Link href="/blog">
@@ -545,21 +535,19 @@ const Header1 = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="#">Pages</a>
                     <span
-                      className={`dropdown-icon2 ${
-                        state.activeMenu === "pages" ? "active" : ""
-                      }`}
+                      className={`dropdown-icon2 ${state.activeMenu === "pages" ? "active" : ""
+                        }`}
                       onClick={() => toggleMenu("pages")}
                     >
                       <i className="bi bi-plus" />
                     </span>
                     <ul
-                      className={`submenu-list ${
-                        state.activeMenu === "pages" ? "d-block" : "d-none"
-                      }`}
+                      className={`submenu-list ${state.activeMenu === "pages" ? "d-block" : "d-none"
+                        }`}
                     >
                       <li>
                         <Link href="/blog">
@@ -577,19 +565,17 @@ const Header1 = () => {
                       <li>
                         <Link href="/portfolio">Portfolio </Link>
                         <span
-                          className={`dropdown-icon2 two ${
-                            state.activeSubMenu === "portfolio" ? "active" : ""
-                          }`}
+                          className={`dropdown-icon2 two ${state.activeSubMenu === "portfolio" ? "active" : ""
+                            }`}
                           onClick={() => toggleSubMenu("portfolio")}
                         >
                           <i className="bi bi-plus" />
                         </span>
                         <ul
-                          className={`submenu-list ${
-                            state.activeSubMenu === "portfolio"
-                              ? "d-block"
-                              : "d-none"
-                          }`}
+                          className={`submenu-list ${state.activeSubMenu === "portfolio"
+                            ? "d-block"
+                            : "d-none"
+                            }`}
                         >
                           <li>
                             <Link href="/portfolio">
@@ -661,19 +647,17 @@ const Header1 = () => {
                       <li>
                         <Link href="/team">Our Team</Link>
                         <span
-                          className={`dropdown-icon2 two ${
-                            state.activeSubMenu === "team" ? "active" : ""
-                          }`}
+                          className={`dropdown-icon2 two ${state.activeSubMenu === "team" ? "active" : ""
+                            }`}
                           onClick={() => toggleSubMenu("team")}
                         >
                           <i className="bi bi-plus" />
                         </span>
                         <ul
-                          className={`submenu-list ${
-                            state.activeSubMenu === "team"
-                              ? "d-block"
-                              : "d-none"
-                          }`}
+                          className={`submenu-list ${state.activeSubMenu === "team"
+                            ? "d-block"
+                            : "d-none"
+                            }`}
                         >
                           <li>
                             <Link href="/team1">
@@ -719,19 +703,17 @@ const Header1 = () => {
                       <li>
                         <Link href="/shop">Shop</Link>
                         <span
-                          className={`dropdown-icon2 two ${
-                            state.activeSubMenu === "shop" ? "active" : ""
-                          }`}
+                          className={`dropdown-icon2 two ${state.activeSubMenu === "shop" ? "active" : ""
+                            }`}
                           onClick={() => toggleSubMenu("shop")}
                         >
                           <i className="bi bi-plus" />
                         </span>
                         <ul
-                          className={`submenu-list ${
-                            state.activeSubMenu === "shop"
-                              ? "d-block"
-                              : "d-none"
-                          }`}
+                          className={`submenu-list ${state.activeSubMenu === "shop"
+                            ? "d-block"
+                            : "d-none"
+                            }`}
                         >
                           <li>
                             <Link href="/shop">
@@ -964,9 +946,8 @@ const Header1 = () => {
                 return (
                   <li
                     key={id}
-                    className={`${
-                      icon === true ? "menu-item-has-children" : ""
-                    }`}
+                    className={`${icon === true ? "menu-item-has-children" : ""
+                      }`}
                   >
                     <Link href={link} className="drop-down">
                       {label}
@@ -974,17 +955,15 @@ const Header1 = () => {
                     {icon && (
                       <i
                         onClick={() => toggleMenu(label)}
-                        className={`bi bi-${
-                          state.activeMenu === label ? "dash" : "plus"
-                        } dropdown-icon`}
+                        className={`bi bi-${state.activeMenu === label ? "dash" : "plus"
+                          } dropdown-icon`}
                       />
                     )}
 
                     {subMenu && (
                       <ul
-                        className={`sub-menu ${
-                          state.activeMenu === label ? "d-block" : ""
-                        }`}
+                        className={`sub-menu ${state.activeMenu === label ? "d-block" : ""
+                          }`}
                       >
                         {subMenu.map((subItem, subIndex) => (
                           <li key={subIndex}>
@@ -996,11 +975,10 @@ const Header1 = () => {
                                 <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
                                 <i
                                   onClick={() => toggleSubMenu(subItem.label)}
-                                  className={`d-lg-none d-flex bi bi-${
-                                    state.activeSubMenu === subItem.label
-                                      ? "dash"
-                                      : "plus"
-                                  } dropdown-icon `}
+                                  className={`d-lg-none d-flex bi bi-${state.activeSubMenu === subItem.label
+                                    ? "dash"
+                                    : "plus"
+                                    } dropdown-icon `}
                                 />
                               </>
                             ) : (
@@ -1008,11 +986,10 @@ const Header1 = () => {
                             )}
                             {subItem.subMenu && (
                               <ul
-                                className={`sub-menu ${
-                                  state.activeSubMenu === subItem.label
-                                    ? "d-block"
-                                    : ""
-                                }`}
+                                className={`sub-menu ${state.activeSubMenu === subItem.label
+                                  ? "d-block"
+                                  : ""
+                                  }`}
                               >
                                 {subItem.subMenu.map((subItem, subIndex) => (
                                   <li key={subItem.id}>
