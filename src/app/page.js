@@ -13,11 +13,11 @@ import Home1Solution from "@/components/solution/Home1Solution";
 import Home1Testimonial from "@/components/testimonial/Home1Testimonial";
 import Home1WorkProcess from "@/components/workProcess/Home1WorkProcess";
 
-export const metadata = {
-  icons: {
-    icon: "/assets/img/sm-logo.svg",
-  },
-}
+// export const metadata = {
+//   icons: {
+//     icon: "/assets/img/sm-logo.svg",
+//   },
+// }
 export default function Home() {
   return (
     <>
@@ -26,7 +26,7 @@ export default function Home() {
       <Home1BannerMarquee />
       <Home1About />
       <Home1Solution />
-      <Home1Portfolio />
+      {/* <Home1Portfolio /> */}
       {/* <Home1WorkProcess /> */}
       {/* <BannerWithCaseStudySlider />
       <Home1Approach /> */}

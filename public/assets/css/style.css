@@ -293,7 +293,7 @@ ul {
 }
 @media (max-width: 767px) {
   .pt-120 {
-    padding-top: 70px;
+    padding-top: 90px;
   }
 }
 
@@ -4456,6 +4456,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .service-card {
   background-color: var(--dark-white-color);
   border-radius: 5px;
+  min-height: 360px;
   padding: 35px 30px;
   transition: 0.5s;
 }
@@ -4476,7 +4477,6 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .service-card .content {
   padding-bottom: 15px;
-  border-bottom: 1px solid rgba(11, 12, 12, 0.1);
   margin-bottom: 20px;
 }
 .service-card .content h4 {

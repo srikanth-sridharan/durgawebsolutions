@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <footer className="footer-section">
         <div className="container">
-          <div className="footer-top">
+          {/* <div className="footer-top">
             <div className="row align-items-center justify-content-center">
               <div className="col-lg-4 col-md-6">
                 <div className="footer-widget">
@@ -204,8 +204,8 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="contact-area">
+          </div> */}
+          {/* <div className="contact-area">
             <div className="hotline-area">
               <div className="icon">
                 <svg
@@ -275,7 +275,7 @@ const Footer = () => {
                 </h6>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="footer-bottom">
             <div className="copyright-area">
               <p>

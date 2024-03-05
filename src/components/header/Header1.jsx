@@ -310,7 +310,7 @@ const Header1 = () => {
                   <li>
                     <Link href="/about">About</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/service">Services</Link>
                     <span
                       className={`dropdown-icon2 ${state.activeMenu === "service" ? "active" : ""
@@ -389,7 +389,7 @@ const Header1 = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   {/* <li>
                     <Link href="/case-study">Case Study</Link>
                     <span
@@ -447,7 +447,7 @@ const Header1 = () => {
                     </ul>
                   </li> */}
                   <li>
-                    <Link href="/portfolio/portfolio-list">Portfolio</Link>
+                    <Link href="/portfolio">Portfolio</Link>
                   </li>
                   <li>
                     <Link href="/blog">Blog</Link>
@@ -931,8 +931,9 @@ const Header1 = () => {
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/durga.svg"
                 width={150}
+                src="assets/img/durga.svg"
+                
               />
             </Link>
             <Link href="/" className="logo-light">

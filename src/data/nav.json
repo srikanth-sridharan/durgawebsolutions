@@ -13,51 +13,18 @@
     },
     {
         "id": "3",
-        "label": "Services",
-        "link": "/service",
-        "icon": true,
-        "subMenu": [
-            {
-                "id": "1",
-                "label": "Service style 01",
-                "link": "/service"
-            },
-            {
-                "id": "2",
-                "label": "Service style 02",
-                "link": "/service/service2"
-            },
-            {
-                "id": "3",
-                "label": "Service style 03",
-                "link": "/service/service3"
-            },
-            {
-                "id": "4",
-                "label": "Service style 04",
-                "link": "/service/service4"
-            },
-            {
-                "id": "4",
-                "label": "service details",
-                "link": "/service/service-details"
-            }
-        ]
-    },
-    {
-        "id": "4",
         "label": "Portfolio",
-        "link": "/portfolio/portfolio-list",
+        "link": "/portfolio",
         "icon": false
     },
     {
-        "id": "5",
+        "id": "4",
         "label": "Blog",
         "link": "/blog",
         "icon": false
     },
     {
-        "id": "6",
+        "id": "5",
         "label": "Contact",
         "link": "/contact",
         "icon": false
