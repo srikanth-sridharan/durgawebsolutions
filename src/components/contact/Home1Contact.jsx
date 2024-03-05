@@ -64,7 +64,7 @@ const Home1Contact = () => {
                     <div className="content">
                       <span>To More Inquiry</span>
                       <h6>
-                        <a href="tel:+990737621432">+990-737 621 432</a>
+                        <a href="tel:+918825668691">+91 88256-68691</a>
                       </h6>
                     </div>
                   </div>
@@ -86,7 +86,7 @@ const Home1Contact = () => {
                     <div className="content">
                       <span>To Send Mail</span>
                       <h6>
-                        <a href="mailto:info@example.com">info@gmail.com</a>
+                        <a href="mailto:hello@durgawebsolutions.com">hello@durgawebsolutions.com</a>
                       </h6>
                     </div>
                   </div>

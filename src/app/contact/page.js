@@ -54,9 +54,9 @@ const ContactPage = () => {
             >
               <div className="contact-area">
                 <div className="address">
-                  <h4 className="title">United Kingdom</h4>
-                  <span>London</span>
-                  <p>28200 Old 41 Rd #208 Bonita Springs, FL 34135</p>
+                  <h4 className="title">India</h4>
+                  <span>Chennai/Bengaluru</span>
+                  <p>No 14, Kamatchipuram 2nd Street, West Mambalam, Chennai-600033</p>
                 </div>
                 <div className="working-hour">
                   <div className="icon">
@@ -73,10 +73,7 @@ const ContactPage = () => {
                   </div>
                   <div className="content">
                     <span>Working Hours</span>
-                    <h6>Mon to Sat : 8am- 9pm</h6>
-                    <h6>
-                      Sunday : <span>Closed</span>
-                    </h6>
+                    <h6>24/7</h6>
                   </div>
                 </div>
               </div>
@@ -99,7 +96,7 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div className="contact-section">
+      {/* <div className="contact-section">
         <div className="container">
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-5">
@@ -295,7 +292,7 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </MainLayout>
   );
 };
