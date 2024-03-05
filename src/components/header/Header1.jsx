@@ -129,19 +129,19 @@ const Header1 = () => {
               <div className="sidebar-menu-wrap">
                 <ul className="main-menu">
                   <li>
-                    <Link href="/">Agency </Link>
-                    <span
+                    <Link href="/">Home </Link>
+                    {/* <span
                       className={`dropdown-icon2 ${state.activeMenu === "home" ? "active" : ""
                         }`}
                       onClick={() => toggleMenu("home")}
                     >
                       <i className="bi bi-plus" />
-                    </span>
+                    </span> */}
                     <ul
                       className={`submenu-list active ${state.activeMenu === "home" ? "d-block" : "d-none"
                         }`}
                     >
-                      <li>
+                      {/* <li>
                         <a href="#">Light Version</a>
                         <span
                           className={`dropdown-icon2 two ${state.activeSubMenu === "light" ? "active" : ""
@@ -304,8 +304,11 @@ const Header1 = () => {
                             </Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                     </ul>
+                  </li>
+                  <li>
+                    <Link href="/about">About</Link>
                   </li>
                   <li>
                     <Link href="/service">Services</Link>
@@ -443,20 +446,23 @@ const Header1 = () => {
                       </li>
                     </ul>
                   </li> */}
-                  {/* <li>
+                  <li>
+                    <Link href="/portfolio/portfolio-list">Portfolio</Link>
+                  </li>
+                  <li>
                     <Link href="/blog">Blog</Link>
-                    <span
+                    {/* <span
                       className={`dropdown-icon2 ${state.activeMenu === "blog" ? "active" : ""
                         }`}
                       onClick={() => toggleMenu("blog")}
                     >
                       <i className="bi bi-plus" />
-                    </span>
+                    </span> */}
                     <ul
                       className={`submenu-list ${state.activeMenu === "blog" ? "d-block" : "d-none"
                         }`}
                     >
-                      <li>
+                      {/* <li>
                         <Link href="/blog">
                           Blog Grid
                           <svg
@@ -468,7 +474,7 @@ const Header1 = () => {
                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                           </svg>
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/blog/blog-sidebar">
                           Blog Grid Sidebar
@@ -535,8 +541,8 @@ const Header1 = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li> */}
-                  <li>
+                  </li>
+                  {/* <li>
                     <a href="#">Pages</a>
                     <span
                       className={`dropdown-icon2 ${state.activeMenu === "pages" ? "active" : ""
@@ -796,7 +802,7 @@ const Header1 = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/contact">Contact</Link>
                   </li>
@@ -807,7 +813,7 @@ const Header1 = () => {
               <div className="sidebar-contact">
                 <div className="getin-touch-area mb-60">
                   <h4>
-                    Get in Touch
+                    Contact us
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={12}
@@ -832,7 +838,7 @@ const Header1 = () => {
                       <div className="contact">
                         <span>Phone</span>
                         <h6>
-                          <a href="#">+991 - 763 684 4563</a>
+                          <a href="tel:+918825668691">+91 88256-68691</a>
                         </h6>
                       </div>
                     </li>
@@ -848,9 +854,9 @@ const Header1 = () => {
                         </svg>
                       </div>
                       <div className="contact">
-                        <span>Email Now</span>
+                        <span>Email us</span>
                         <h6>
-                          <a href="#">info@examplegmail.com</a>
+                          <a href="mailto:hello@durgawebsolutions.com">hello@durgawebsolutions.com</a>
                         </h6>
                       </div>
                     </li>
@@ -868,7 +874,7 @@ const Header1 = () => {
                       </div>
                       <div className="contact">
                         <h6>
-                          Canada City, Office-02, Road-11, House-3B/B, Section-H
+                          No 14, Kamatchipuram 2nd Street, West Mambalam, Chennai-600033
                         </h6>
                       </div>
                     </li>
@@ -889,22 +895,22 @@ const Header1 = () => {
                   <ul className="social-area">
                     <li>
                       <a href="#">
-                        <i className="bi bi-dribbble" /> Dribbble
+                        <i class="bi bi-facebook"></i> Facebook
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="bi bi-behance" /> Behance
+                        <i className="bi bi-twitter" /> Twitter
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="bi bi-pinterest" /> Pinterest
+                        <i class="bi bi-instagram"></i> Instagram
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="bi bi-facebook" /> Facebook
+                        <i className="bi bi-linkedin" />  LinkedIn
                       </a>
                     </li>
                   </ul>

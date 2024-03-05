@@ -81,7 +81,7 @@ const Home1Testimonial = () => {
                         <path d="M6.6304 0.338424C6.67018 -0.112811 7.32982 -0.112807 7.3696 0.338428L7.72654 4.38625C7.75291 4.68505 8.10454 4.83069 8.33443 4.63804L11.4491 2.02821C11.7963 1.73728 12.2627 2.20368 11.9718 2.55089L9.36197 5.66556C9.1693 5.89546 9.31496 6.24709 9.61374 6.27346L13.6615 6.6304C14.1128 6.67018 14.1128 7.32982 13.6615 7.3696L9.61374 7.72654C9.31496 7.75291 9.1693 8.10454 9.36197 8.33443L11.9718 11.4491C12.2627 11.7963 11.7963 12.2627 11.4491 11.9718L8.33443 9.36197C8.10454 9.1693 7.75291 9.31496 7.72654 9.61374L7.3696 13.6615C7.32982 14.1128 6.67018 14.1128 6.6304 13.6615L6.27346 9.61374C6.24709 9.31496 5.89546 9.1693 5.66556 9.36197L2.55089 11.9718C2.20368 12.2627 1.73729 11.7963 2.02822 11.4491L4.63804 8.33443C4.83069 8.10454 4.68504 7.75291 4.38625 7.72654L0.338424 7.3696C-0.112811 7.32982 -0.112807 6.67018 0.338428 6.6304L4.38625 6.27346C4.68505 6.24709 4.83069 5.89546 4.63804 5.66556L2.02821 2.55089C1.73728 2.20368 2.20368 1.73729 2.55089 2.02822L5.66556 4.63804C5.89546 4.83069 6.24709 4.68504 6.27346 4.38625L6.6304 0.338424Z" />
                       </g>
                     </svg>
-                    Client feedback
+                    Feedbacks
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={14}
@@ -93,14 +93,12 @@ const Home1Testimonial = () => {
                       </g>
                     </svg>
                   </span>
-                  <h2>Happy Client Stories</h2>
+                  <h2>Our Success Stories</h2>
                   <p>
-                    These voices echo the confidence and satisfaction of clients
-                    who've witnessed firsthand the impact of our solutions. At
-                    Zenfy, our clients aren't just partners.
+                    These voices reflect the trust and collaboration we build with our clients. At Durgawebsolutions, we're more than just service providers – we're committed to your success.
                   </p>
                 </div>
-                <ul className="rating-area">
+                {/* <ul className="rating-area">
                   <li>
                     <a href="https://clutch.co" className="single-rating">
                       <div className="review">
@@ -172,7 +170,7 @@ const Home1Testimonial = () => {
                       </div>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
             <div
@@ -188,98 +186,89 @@ const Home1Testimonial = () => {
                   <div className="swiper-wrapper">
                     <SwiperSlide className="swiper-slide">
                       <div className="testimonial-card3 style-2">
-                        <span>Great Digital Marketing!</span>
+                        <span>Emphasizing Transformation</span>
                         <p>
-                          “You can adjust the length and style of the line to
-                          match the overall design and formatting of your
-                          document. Some other divider options include dashes,
-                          stars, or even a graphical element.”
+                          “Our website was outdated and clunky. Durga web solutions completely revamped it, making it modern, user-friendly, and a true lead generator. We're seeing a huge increase in traffic and conversions!”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
-                            <div className="author-img">
+                            {/* <div className="author-img">
                               <img
                                 src="assets/img/home2/testi-author-05.png"
                                 alt=""
                               />
-                            </div>
+                            </div> */}
                             <div className="content">
-                              <h6>Luke Julian</h6>
-                              <span>CEO At astra.com</span>
+                              <h6>Jane Smith</h6>
+                              <span>CEO At Theamego</span>
                             </div>
                           </div>
-                          <div className="logo">
+                          {/* <div className="logo">
                             <img
                               src="assets/img/home1/icon/testimonial-card-logo1.svg"
                               alt=""
                             />
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
                       <div className="testimonial-card3 style-2">
-                        <span>Great Consulting!</span>
+                        <span>Focusing on Problem-solving</span>
                         <p>
-                          “The line's length and style can be changed to better
-                          fit your document's general layout and style. Stars,
-                          dashes, or even a graphical element are some other
-                          divider alternatives.”
+                          “Durga web solutions understood our pain points perfectly. They built a custom solution that streamlined our entire sales process. We're now closing deals faster than ever.”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
-                            <div className="author-img">
+                            {/* <div className="author-img">
                               <img
                                 src="assets/img/home2/testi-author-01.png"
                                 alt=""
                               />
-                            </div>
+                            </div> */}
                             <div className="content">
-                              <h6>David Beckham</h6>
-                              <span>CEO At astra.com</span>
+                              <h6>John Doe</h6>
+                              <span>Business Owner At Flouredo</span>
                             </div>
                           </div>
-                          <div className="logo">
+                          {/* <div className="logo">
                             <img
                               src="assets/img/home1/icon/testimonial-card-logo2.svg"
                               alt=""
                             />
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
                       <div className="testimonial-card3 style-2">
-                        <span>Great Digital Marketing!</span>
+                        <span>Highlighting Expertise</span>
                         <p>
-                          “You can adjust the length and style of the line to
-                          match the overall design and formatting of your
-                          document. Some other divider options include dashes,
-                          stars, or even a graphical element.”
+                        "I'm not tech-savvy, but the team at Durga web solutions walked me through every step. They explained everything clearly and delivered a site that exceeded my expectations."
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
-                            <div className="author-img">
+                            {/* <div className="author-img">
                               <img
                                 src="assets/img/home2/testi-author-02.png"
                                 alt=""
                               />
-                            </div>
+                            </div> */}
                             <div className="content">
-                              <h6>Daniel Scoot</h6>
-                              <span>CEO At astra.com</span>
+                              <h6>Sarah Johnson</h6>
+                              <span>Founder At CatJack</span>
                             </div>
                           </div>
-                          <div className="logo">
+                          {/* <div className="logo">
                             <img
                               src="assets/img/home1/icon/testimonial-card-logo3.svg"
                               alt=""
                             />
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
+                    {/* <SwiperSlide className="swiper-slide">
                       <div className="testimonial-card3 style-2">
                         <span>Great Consulting!</span>
                         <p>
@@ -309,7 +298,7 @@ const Home1Testimonial = () => {
                           </div>
                         </div>
                       </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                   </div>
                 </Swiper>
               </div>

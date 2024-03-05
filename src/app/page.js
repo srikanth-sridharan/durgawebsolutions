@@ -27,12 +27,12 @@ export default function Home() {
       <Home1About />
       <Home1Solution />
       <Home1Portfolio />
-      <Home1WorkProcess />
+      {/* <Home1WorkProcess /> */}
       {/* <BannerWithCaseStudySlider />
       <Home1Approach /> */}
       {/* <LogoMarquee /> */}
       <Home1Testimonial />
-      <Home1Blog />
+      {/* <Home1Blog /> */}
       <Home1Contact />
       <Footer />
     </>
