@@ -38,11 +38,9 @@ const Home1About = () => {
                     </svg>
                   </span>
                   <h2>
-                  We're the startup agency where young talent unleashes their creativity and delivers extraordinary work.
-                  </h2>
+                  Durga Web Solutions: Your Gateway to Digital Success</h2>
                   <p>
-                  Durga Web Solutions is a web development startup where creativity meets cutting-edge technology. We're passionate about building dynamic, user-centric websites and applications that help businesses thrive in the digital world. Our team of young, talented developers brings fresh perspectives and innovative solutions to every project.
-                  </p>
+                  As a business owner in today's hyper-connected world, you understand the paramount importance of a robust online presence.  Durga Web Solutions, your trusted Chennai-based web design and development partner, is here to help you navigate the digital landscape and achieve your business goals.</p>                
                 </div>
               </div>
             </div>

@@ -43,9 +43,8 @@ export default function RootLayout({ children }) {
           type="image/x-icon"
           sizes="16x16"
         />
-        <title>Durga Web Solutions - BUILD. LAUNCH. SUCCEED.</title>
-        <meta name="description" content="Transform your online presence with our expert web development services. Get a stunning, high-converting website that drives results." />
-
+        <title>Durga Web Solutions - Web Design Company & Website Development Agency</title>
+        <meta name="description" content="Boost Your Online Presence: Expert Web Design & Development in Chennai. Get a High-Converting Website Today!"></meta>
       </head>
       <body>
         <ScrollProgress />

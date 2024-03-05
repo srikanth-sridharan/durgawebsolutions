@@ -72,8 +72,8 @@ const Home1Banner = () => {
                 </span>
                 <h1>Your vision, our web expertise. </h1>
                 <p>
-                Transform your business with our custom web development solutions. We combine beautiful design with seamless functionality for a website that works for you.
-                </p>
+                  Grow Your Business Online: Award-Winning Custom Web Design & Development in Chennai. Get a Free Quote Today!
+                  </p>
                 <div className="banner-content-bottom">
                   <Link
                     href="/contact"

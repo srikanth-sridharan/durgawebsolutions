@@ -140,18 +140,18 @@ const Home1Contact = () => {
             >
               <div className="contact-form-wrap">
                 <div className="contact-form-area">
-                  <h3>Your Success Starts Here!</h3>
+                  <h3>Contact Us</h3>
                   <form>
                     <div className="row">
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
-                          <label>Full Name</label>
+                          <label>Full Name *</label>
                           <input type="text" />
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
-                          <label>Company / Organization *</label>
+                          <label>Company / Organization</label>
                           <input type="text" />
                         </div>
                       </div>
@@ -163,7 +163,7 @@ const Home1Contact = () => {
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
-                          <label>Company email *</label>
+                          <label>Email *</label>
                           <input type="email" />
                         </div>
                       </div>

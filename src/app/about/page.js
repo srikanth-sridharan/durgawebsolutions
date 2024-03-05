@@ -62,10 +62,7 @@ const Aboutpage = () => {
   }, []);
   return (
     <MainLayout>
-      <div
-        className="home1-about-section scroll-margin pt-120 mb-120"
-        id="about-section"
-      >
+      <div className="home1-about-section scroll-margin pt-120 mb-110" id="about-section">
         <div className="container">
           <div className="row mb-90">
             <div
@@ -86,7 +83,7 @@ const Aboutpage = () => {
                         <path d="M6.6304 0.338424C6.67018 -0.112811 7.32982 -0.112807 7.3696 0.338428L7.72654 4.38625C7.75291 4.68505 8.10454 4.83069 8.33443 4.63804L11.4491 2.02821C11.7963 1.73728 12.2627 2.20368 11.9718 2.55089L9.36197 5.66556C9.1693 5.89546 9.31496 6.24709 9.61374 6.27346L13.6615 6.6304C14.1128 6.67018 14.1128 7.32982 13.6615 7.3696L9.61374 7.72654C9.31496 7.75291 9.1693 8.10454 9.36197 8.33443L11.9718 11.4491C12.2627 11.7963 11.7963 12.2627 11.4491 11.9718L8.33443 9.36197C8.10454 9.1693 7.75291 9.31496 7.72654 9.61374L7.3696 13.6615C7.32982 14.1128 6.67018 14.1128 6.6304 13.6615L6.27346 9.61374C6.24709 9.31496 5.89546 9.1693 5.66556 9.36197L2.55089 11.9718C2.20368 12.2627 1.73729 11.7963 2.02822 11.4491L4.63804 8.33443C4.83069 8.10454 4.68504 7.75291 4.38625 7.72654L0.338424 7.3696C-0.112811 7.32982 -0.112807 6.67018 0.338428 6.6304L4.38625 6.27346C4.68505 6.24709 4.83069 5.89546 4.63804 5.66556L2.02821 2.55089C1.73728 2.20368 2.20368 1.73729 2.55089 2.02822L5.66556 4.63804C5.89546 4.83069 6.24709 4.68504 6.27346 4.38625L6.6304 0.338424Z" />
                       </g>
                     </svg>
-                    Expertise You Can Trust
+                    BUILD. LAUNCH. SUCCEED.
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={14}
@@ -99,21 +96,43 @@ const Aboutpage = () => {
                     </svg>
                   </span>
                   <h2>
-                    We are a Startup agency working with young talents on
-                    delivering unique ideas and creative work.
-                  </h2>
+                  Durga Web Solutions: Your Gateway to Digital Success</h2>
                   <p>
-                    Where innovation meets passion in a journey that started
-                    with a simple idea and a shared dream. Founded in recent
-                    year we embarked on a mission to bring the new innovation
-                    and introduce the technology. From humble beginnings to our
-                    current aspirations, every step has been fueled by a
-                    relentless commitment
+                  As a business owner in today's hyper-connected world, you understand the paramount importance of a robust online presence.  Durga Web Solutions, your trusted Chennai-based web design and development partner, is here to help you navigate the digital landscape and achieve your business goals.</p>
+                  <h3>
+                  Stunning Websites That Convert</h3>
+                  <p>
+                  Your website is the virtual storefront of your business. At Durga Web Solutions, we don't just create websites; we craft meticulously designed online experiences that captivate your visitors and guide them seamlessly through the conversion funnel. Our skilled web designers understand the delicate balance between aesthetics and usability, ensuring your website is both visually stunning and highly functional.
                   </p>
+                  <h3>eCommerce Solutions for Unmatched Growth</h3>
+                  <p>Looking to take your business to the next level with an online store? Our team of eCommerce experts specializes in building powerful, scalable eCommerce solutions tailored to fit your specific needs. Whether you're utilizing established platforms like Shopify or Magento or require a fully custom eCommerce website, we'll work closely with you to develop a solution that drives sales and maximizes revenue.
+                  </p>
+                  <h3>
+                  Innovative Technology: The Cornerstone of Our Approach
+                  </h3>
+                  <p>
+                  The world of web development is constantly evolving, and we pride ourselves on staying at the forefront of technological innovation. From cutting-edge JavaScript frameworks to the latest advancements in cloud computing, we leverage the best tools and technologies to ensure your website is fast, secure, and future-proof.
+                  </p>
+                  <h3>User-Centric Design for Lasting Impact</h3>
+                  <p>A website is ultimately only as good as the experience it provides for its users.  That's why we place user-centric design at the heart of everything we do. Our team carefully considers your target audience, their pain points, and their goals as we develop intuitive interfaces and seamless navigation for your website. We believe in empowering your customers to find what they need quickly and easily, fostering trust and loyalty with your brand.
+                  </p>
+                  <h3>Beyond Web Design: A Comprehensive Approach</h3>
+                  <p>While web design and development are our core areas of expertise, we understand that a successful online presence often requires a multi-faceted approach. That's why  Durga Web Solutions offers a range of complementary services including:
+                  </p>
+                  <ul>
+                    <li><strong>Search Engine Optimization (SEO):</strong> Get your website found by your target audience. We'll optimize your site's structure and content to rank higher in search engine results, driving organic traffic and qualified leads.
+</li><br/>
+<li><strong>Content Marketing:</strong> Attract and engage your customers with high-quality, informative content. Our team can help you develop blog posts, articles, videos, and more to position your business as a thought leader in your industry.
+  </li><br/>
+  <li><strong>Digital Advertising:</strong> Reach your ideal customer with targeted online advertising campaigns. We'll manage your social media ads, Google Ads, and other paid channels to generate leads and boost brand awareness.
+</li><br/>
+                  </ul>
+                  <h3>Let's Transform Your Online Presence Together</h3>
+                  <p>Ready to unleash the full potential of your online presence? Contact Durga Web Solutions today to schedule a free consultation. We'll discuss your business goals, analyze your current digital footprint, and create a custom strategy to help you thrive in the ever-evolving digital landscape.</p>
                 </div>
               </div>
             </div>
-            <div
+            {/* <div
               className="col-lg-3 d-flex justify-content-lg-end wow animate fadeInRight"
               data-wow-delay="200ms"
               data-wow-duration="2000ms"
@@ -139,11 +158,11 @@ const Aboutpage = () => {
                     <div className="content">
                       <div className="number">
                         <h5 className="counter">
-                          <CountUp end={150} delay={5} />
+                          <CountUp end={99} delay={0} />
                         </h5>
-                        <span>Project</span>
+                        <span>Projects</span>
                       </div>
-                      <p>We Have Completed</p>
+                      <p>Completed</p>
                     </div>
                   </li>
                   <li className="single-countdown">
@@ -165,7 +184,7 @@ const Aboutpage = () => {
                     <div className="content">
                       <div className="number">
                         <h5 className="counter">
-                          <CountUp end={90} delay={5} />
+                          <CountUp end={100} delay={0} />
                         </h5>
                         <span>%</span>
                       </div>
@@ -188,19 +207,19 @@ const Aboutpage = () => {
                     <div className="content">
                       <div className="number">
                         <h5 className="counter">
-                          <CountUp end={3} delay={5} />
+                          <CountUp end={100} delay={0} />
                         </h5>
-                        <span>Mins</span>
+                        <span>%</span>
                       </div>
-                      <p>Average Answer Time</p>
+                      <p>Delivered on time</p>
                     </div>
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="about-bottom-area">
+        {/* <div className="about-bottom-area">
           <div className="container-fluid">
             <div className="row g-5">
               <div
@@ -211,17 +230,14 @@ const Aboutpage = () => {
                 <div className="feature-card">
                   <div className="icon">
                     <img
-                      src="assets/img/home1/icon/about-feature-card-icon1.svg"
+                      src="assets/img/home1/icon/about-feature-card-icon4.svg"
                       alt=""
                     />
                   </div>
                   <div className="content">
-                    <h4>Expertise and Innovation</h4>
+                    <h4>Cost Planning & Research</h4>
                     <p>
-                      We pride ourselves staying at the front of innovation,
-                      constantly pushing boundaries a redefining what's
-                      possible.
-                    </p>
+                    We understand that effective cost planning is crucial for any project. Our in-depth research and detailed analysis help you make informed decisions. We create accurate cost estimates, identify potential risks, and develop strategies to optimize your budget and ensure your project's financial success.</p>
                   </div>
                 </div>
               </div>
@@ -238,11 +254,9 @@ const Aboutpage = () => {
                     />
                   </div>
                   <div className="content">
-                    <h4>Transparent Process</h4>
+                    <h4>Design</h4>
                     <p>
-                      Our transparent process is designed to demystify the
-                      journey from concept to delivery.
-                    </p>
+                    Our designers craft wireframes outlining the website's structure and flow.  We then focus on the visual interface,  ensuring a beautiful, user-friendly experience that reflects your brand.</p>
                   </div>
                 </div>
               </div>
@@ -259,11 +273,9 @@ const Aboutpage = () => {
                     />
                   </div>
                   <div className="content">
-                    <h4>Client-Centric Approach</h4>
+                    <h4>Development</h4>
                     <p>
-                      Our dedicated team takes the time to listen, &amp;
-                      collaborate, ensuring that every interaction a step
-                      towards your success.
+                    Skilled developers transform the approved designs into functional websites. They use a mix of front-end (HTML, CSS, JavaScript) and back-end technologies to create features, interactions, and the overall website architecture.
                     </p>
                   </div>
                 </div>
@@ -276,22 +288,21 @@ const Aboutpage = () => {
                 <div className="feature-card">
                   <div className="icon">
                     <img
-                      src="assets/img/home1/icon/about-feature-card-icon4.svg"
+                      src="assets/img/home1/icon/about-feature-card-icon1.svg"
                       alt=""
                     />
                   </div>
                   <div className="content">
-                    <h4>Cost-Effective</h4>
+                    <h4>Testing & Refinement</h4>
                     <p>
-                      Our commitment to providing cost-effective solutions is
-                      ingrained in our mission.
+                    A rigorous testing phase ensures your website performs flawlessly across different devices and browsers. We gather feedback and make any necessary adjustments.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* <div className="partnership-area mb-120">
         <div className="container">
@@ -574,7 +585,7 @@ const Aboutpage = () => {
         </div>
       </div> */}
 
-      <div className="home2-process-section two mb-120">
+      {/* <div className="home2-process-section two mb-120">
         <div className="container">
           <div
             className="section-title5 text-center mb-70 wow animate fadeInDown"
@@ -742,9 +753,9 @@ const Aboutpage = () => {
 
       <Home5Team />
 
-      <Home5Blog />
+      <Home5Blog /> */}
 
-      <div className="contact-section">
+      {/* <div className="contact-section">
         <div className="container">
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-5">
@@ -940,8 +951,8 @@ const Aboutpage = () => {
             </div>
           </div>
         </div>
-      </div>
-      <footer className="footer-section">
+      </div> */}
+      {/* <footer className="footer-section">
         <div className="container">
           <div className="footer-top">
             <div className="row align-items-center justify-content-center">
@@ -1234,7 +1245,7 @@ const Aboutpage = () => {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </MainLayout>
   );
 };
