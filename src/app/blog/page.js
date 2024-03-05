@@ -13,7 +13,8 @@ const Blogpage = () => {
         id="blog-grid"
       >
         <div className="container">
-          <div className="row g-4 mb-50">
+          <h1 style={{textAlign:"center"}}>Coming Soon</h1>
+          {/* <div className="row g-4 mb-50">
             <div
               className="col-lg-4 col-md-6 wow animate fadeInDown"
               data-wow-delay="200ms"
@@ -498,7 +499,7 @@ const Blogpage = () => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </MainLayout>

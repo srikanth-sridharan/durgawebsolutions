@@ -25,7 +25,7 @@ const ContactPage = () => {
                   >
                     <path d="M3.7081 12.9544C3.41861 13.1128 3.09011 12.8352 3.14861 12.4808L3.7711 8.69694L1.12886 6.01223C0.882112 5.76104 1.01036 5.30186 1.34111 5.25226L5.0146 4.69548L6.6526 1.23399C6.80035 0.922003 7.2001 0.922003 7.34785 1.23399L8.98584 4.69548L12.6593 5.25226C12.9901 5.30186 13.1183 5.76104 12.8708 6.01223L10.2293 8.69694L10.8518 12.4808C10.9103 12.8352 10.5818 13.1128 10.2923 12.9544L6.9991 11.1497L3.7081 12.9544Z" />
                   </svg>
-                  Office Addresses
+                  Contact Us
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={14}
@@ -35,13 +35,11 @@ const ContactPage = () => {
                     <path d="M3.7081 12.9544C3.41861 13.1128 3.09011 12.8352 3.14861 12.4808L3.7711 8.69694L1.12886 6.01223C0.882112 5.76104 1.01036 5.30186 1.34111 5.25226L5.0146 4.69548L6.6526 1.23399C6.80035 0.922003 7.2001 0.922003 7.34785 1.23399L8.98584 4.69548L12.6593 5.25226C12.9901 5.30186 13.1183 5.76104 12.8708 6.01223L10.2293 8.69694L10.8518 12.4808C10.9103 12.8352 10.5818 13.1128 10.2923 12.9544L6.9991 11.1497L3.7081 12.9544Z" />
                   </svg>
                 </span>
-                <h2>
+                {/* <h2>
                   Our Office <span>Locations.</span>
-                </h2>
+                </h2> */}
                 <p>
-                  Feel free adapt this based on the specific managed services,
-                  features, and unique selling points your IT service company
-                  provides.
+                Let's connect! Whether you have a project in mind or simply want to discuss your web development goals, we're ready to help. Get in touch using the form below, or contact us directly via the information provided.
                 </p>
               </div>
             </div>
@@ -72,8 +70,7 @@ const ContactPage = () => {
                     </svg>
                   </div>
                   <div className="content">
-                    <span>Working Hours</span>
-                    <h6>24/7</h6>
+                    <span>Available<h6>24/7</h6></span>
                   </div>
                 </div>
               </div>
@@ -85,7 +82,7 @@ const ContactPage = () => {
             >
               <div className="company-map">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5647631857846!2d90.36311167605992!3d23.83407118555764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c14c8682a473%3A0xa6c74743d52adb88!2sEgens%20Lab!5e0!3m2!1sen!2sbd!4v1700138349574!5m2!1sen!2sbd"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.9875044557925!2d80.21490419626929!3d13.036467223736388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266e2c6761a85%3A0x30b6f76107cb7c3e!2s14%2C%20Postal%20Colony%202nd%20St%2C%20Postal%20Colony%2C%20West%20Mambalam%2C%20Chennai%2C%20Tamil%20Nadu%20600033!5e0!3m2!1sen!2sin!4v1709677536585!5m2!1sen!2sin"
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
