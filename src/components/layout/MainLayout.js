@@ -5,6 +5,7 @@ import Header2 from "../header/Header2";
 import Breadcrumb from "./Breadcrumb";
 import Footer from "../footer/Footer";
 import Home1Contact from "../contact/Home1Contact";
+import Header1 from "../header/Header1";
 
 const MainLayout = ({ children }) => {
   const pathname = usePathname(); // Get the current pathname
@@ -22,8 +23,7 @@ const MainLayout = ({ children }) => {
 
   return (
     <>
-      <Header2 />
-      <Breadcrumb />
+      <Header1 />
       {children}
 
       {shouldRenderBreadcrumb && <Home1Contact />}

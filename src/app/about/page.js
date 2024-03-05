@@ -293,7 +293,7 @@ const Aboutpage = () => {
           </div>
         </div>
       </div>
-      <div className="partnership-area mb-120">
+      {/* <div className="partnership-area mb-120">
         <div className="container">
           <div className="row">
             <div
@@ -572,7 +572,7 @@ const Aboutpage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="home2-process-section two mb-120">
         <div className="container">
