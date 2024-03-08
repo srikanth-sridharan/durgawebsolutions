@@ -103,7 +103,7 @@ const Header1 = () => {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/durga.svg"
+                  src="assets/img/durgalight.svg"
                 />
               </Link>
             </div>
@@ -941,7 +941,7 @@ const Header1 = () => {
                 alt="image"
                 className="img-fluid"
                 width={150}
-                src="assets/img/durga.svg"
+                src="assets/img/durgalight.svg"
 
               />
             </Link>

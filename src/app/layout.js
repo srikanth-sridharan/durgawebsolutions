@@ -14,7 +14,7 @@ import "../../public/assets/css/bootstrap.min.css";
 import "yet-another-react-lightbox/styles.css";
 import "../../public/assets/css/style.css";
 import ScrollProgress from "@/components/common/ScrollProgress";
-// import ThemeSwitch from "@/components/common/Theme";
+import ThemeSwitch from "@/components/common/Theme";
 import useWow from "@/hooks/useWow";
 
 const inter = Inter({
@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <ScrollProgress />
-        {/* <ThemeSwitch /> */}
+        <ThemeSwitch />
         {children}
       </body>
     </html>
